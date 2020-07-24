@@ -1,8 +1,295 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <h1>This is a header</h1>
-    </body>
+<head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
 
-</html>
+    <div class="bg">
+
+<!--   -------------------------------------NAVBAR----------------------------------------------- -->
+
+      <nav class="navbar navbar-dark fixed-top navbar-expand-sm ">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>  Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+              </ul>
+              <h4 class="hotel-name">Shoreline Hotel and Spa</h4>
+            </div>
+        </div>
+    </nav>
+
+<!--   -------------------------------------HEADER TEXT AND FORM----------------------------------------------- -->
+
+<p class="header-text">HOTEL FOR THE WHOLE FAMILY ,<br> ALL YEAR ROUND.</p>
+        <div class=" blur container col-md-2 offset-9">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Check-in date</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="dd/mm/yy">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Check-out date</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="dd/mm/yy">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Rooms needed</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="1">
+            </div>
+            <button type="button" class="btn btn-success">Book now!</button>
+          </form>
+        </div>
+    </div>
+
+
+<!-- ----------------------------------------POSTCARD HEADING---------------------------------------------->
+
+    <h2 class="room-heading">ROOMS AVAILABLE</h2>
+
+<!-- ----------------------------------------POSTCARDS---------------------------------------------->
+
+<div class="card-group">
+
+  <div class="card mb-4">
+
+    <div class="view overlay">
+      <img class="card-img-top" src="single room.jpg"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <div class="card-body">
+
+      <h4 class="card-title">Single Bed</h4>
+      <p class="card-text">A simple room offering everything necessary for a comfortable stay :
+       one single bed, free WiFi, TV, a work desk and a private bathroom with shower!</p>
+
+    </div>
+
+  </div>
+
+  <div class="card mb-4">
+
+    <div class="view overlay">
+      <img class="card-img-top" src="twin bed!.jpg"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <div class="card-body">
+      <h4 class="card-title">Twin Bed</h4>
+      <p class="card-text">The sleek and warm interior of our rooms invites you to relax and enjoy in a twin bed room 
+        In addition to the two comfy beds, you will have plenty of room to relax.</p>
+
+    </div>
+
+  </div>
+
+  <div class="card mb-4">
+
+    <div class="view overlay">
+      <img class="card-img-top" src="deluxe.jpg"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <div class="card-body">
+
+      <h4 class="card-title">Delux Room</h4>
+      <p class="card-text">Rooms which are furnished with your requirements.
+        You feel like as you live in home rooms</p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!--   -------------------------------------PHOTOS----------------------------------------------- -->
+
+
+<section class="section-photos">
+  <ul class="pic-showcase clearfix">
+    <h2 class="room-heading">FACILITIES PROVIDED</h2>
+    <p class="fun">(Glide over the images to have some fun)</p>
+   <li>
+   <figure class="photo">
+   <img src="room!!.jpg"   alt="Bedrooms"> 
+   </figure> 
+   <p>Furnished Rooms</p>  
+   </li>
+   <li>
+    <figure class="photo">
+    <img src="food!!!.jpg"   alt="Food"> 
+    </figure>  
+    <p>Delicious Food</p> 
+    </li>
+      <li>
+   <figure class="photo">
+   <img src="dining-area!!.jpg"   alt="Dining area"> 
+   </figure>  
+   <p>Dining Area</p> 
+   </li>
+      <li>
+   <figure class="photo">
+   <img src="swim!!.jpg"   alt="Swimming pool"> 
+   </figure>   
+   <p>Swimming Pool</p>
+   </li>
+   
+   </ul> 
+</section>
+
+<!--   -------------------------------------LOCATION AND QUOTE----------------------------------------------- -->
+
+<section>
+  <div class="loc-pin col-md">
+  <h5>WHERE CAN YOU FIND US?</h5>
+  <figure class="location">
+    <img src="location!!.jpg" alt="Location Pin">
+  </figure>
+  <p>Street-10,MG road,Delhi,India</p>
+  </div>
+
+  
+  <blockquote class="blockquote ">
+    <p class="quote-p">Shoreline Hotel & Spa, Autograph Collection offers 5-star accommodations
+       with an outdoor swimming pool and fitness center.<br>The guests of the 5-star property enjoy
+        sea views in the rooms, and can enjoy access to a hot tub.<br> Accommodations features
+         free WiFi throughout the property and a 24-hour front desk.</p>
+         
+          <div class="q1">
+              <h3 class="mb-0 text-right">"Only a life lived to the service of 
+              others is worth living!"</h3>
+              <footer class="blockquote-footer text-right"><cite title="Source Title">Albert Einstein
+              </cite></footer>
+          </div>
+    
+  </blockquote>
+
+  
+</section>
+  
+   
+
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+
+<!-- ---------------------------------------- FOOTER ------------------------------------------------------->
+<footer class="page-footer font-small mdb-color pt-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left mt-3 pb-3">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Hotel</h6>
+          <p>Shoreline hotel<br> and spa</p>
+        </div>
+  
+        <hr class="w-100 clearfix d-md-none">
+        
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">More about us</h6>
+          <p>
+            <a class="flink" href="#">Room Rates</a>
+          </p>
+          <p>
+            <a class="flink" href="#">About us</a>
+          </p>
+          <p>
+            <a class="flink" href="#">Help</a>
+          </p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Facilities</h6>
+          <p>
+            Delux Rooms
+          </p>
+          <p>
+            Spa service
+          </p>
+          <p>
+            Complimentary Breakfast
+          </p>
+        </div>
+        
+        <hr class="w-100 clearfix d-md-none">
+  
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 offset-1 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> Delhi, India</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> hotel@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 0145879520</p>
+            <p>
+                <i class="fas fa-phone mr-3"></i> + 0122122165</p>
+        </div>
+        
+      </div>
+      <hr>
+  
+      <div class="row d-flex align-items-center">
+  
+        <div class="col-md-8 col-lg-8"></div>
+        </div>
+  
+        <div class="col-md-4 offset-md-3 col-lg-4 ml-lg-0">
+  
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>  
+  </footer>
+
+</html> 
+
+
+

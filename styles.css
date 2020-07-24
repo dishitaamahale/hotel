@@ -1,0 +1,154 @@
+  .page-footer{
+    background-color: #04350a;
+    color: #fff;
+    margin: 0px auto;
+    padding: 20px 0px;
+  }
+  .icons{
+    padding-left: 50px;    
+  }
+  .footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    background: linear-gradient( rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78) ), url("https://www.geolympus.com/wp-content/uploads/2016/09/Beach-Hotel-HD-Screensavers-Wallpapers.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header-text{
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 100px;
+  padding-top: 200px;
+  font-size: 45px;
+}
+.blur{
+  color: #fff;
+  backdrop-filter: blur(30px);
+  align-items: center;
+  top:-30%;
+}
+.form-group{
+  padding: 15px 15px;
+  padding-bottom: 0.5px;
+}
+.navbar{
+  background-color: #04350a;
+}
+.hotel-name{
+  color: #ffffff;
+}
+.flink{
+  color:#fff;
+}
+.btn-success{
+  padding-bottom: 1px;
+  margin-left: 5px;
+}
+
+
+.section-photos{
+  padding: 0;
+  margin-top: 50px;
+}
+.section-photos p{
+  font-size: 20px;
+  text-align: center;
+}
+.section-photos h2{
+  text-align: center;
+}
+.pic-showcase{
+  list-style: none;
+  width: 100%;
+  
+}
+.pic-showcase li{
+  display: block;
+  float: left;
+  width: 25%;
+  
+}
+.photo{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.photo img{
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s , opacity 0.5s;
+}
+.photo img:hover{
+  opacity: 1;
+  transform: scale(1.03);
+}
+.card-group{
+  margin-top: 25px;
+}
+.room-heading{
+  text-align: center;
+  margin-top: 50px;
+  color: #04350a;
+}
+.fun{
+  color: #04350a;
+}
+.card-title{
+  text-align: center;
+}
+.location img{
+  height:50px;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+.loc-pin{
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.loc-pin h5{
+  color: #04350a;
+  margin-right: 10px;
+}
+.loc-pin p{
+  margin-left: 15px;
+}
+.quote{
+  text-size-adjust: 50px;
+  margin-left: 500px;
+}
+.blockquote{
+  margin-right: 50px;
+}
+.quote-p{
+  text-align: center;
+  color: #04350a;
+}
+.q{
+  margin-top: 30px;
+}
+.blockquote-footer{
+  margin-top: 10px;
+}
+.quotation-mark{
+  font-weight: bold;
+  font-size:100px;
+  color:#04350a;
+  font-family: "Times New Roman", Georgia, Serif;
+  margin-left: 500px;
+}
+.q1{
+  margin-top: 0px;
+}
+
